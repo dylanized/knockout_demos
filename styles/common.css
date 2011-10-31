@@ -1,0 +1,57 @@
+/* Knockout.js Demos CSS */
+
+/* page and body settings */
+
+        * {
+          padding : 0;
+          margin : 0;
+        }
+
+        html {
+          margin : 0;   
+          padding : 0;        
+        }
+
+        body {
+          text-align: left;
+          padding: 0;
+          margin : 0;
+          background-color : #f3f3ef;
+          font: 62.5% Helvetica, Arial, sans-serif;  
+          color : #000;      
+        }
+
+        a:link     	{ color: #000; font-weight: bold; text-decoration: underline; }
+        a:visited  	{ color: #000; font-weight: bold; text-decoration: underline; }
+        a:hover    	{ color: #666; font-weight: bold; text-decoration: underline; }
+        a:active   	{ color: #666; font-weight: bold; text-decoration: underline; }
+
+        a img     	{ border : 0; }
+        
+        img 		{ vertical-align : bottom; }
+        
+        fieldset 	{ border : none; }
+						
+/* page container */
+	
+    #page-wrapper {			
+		margin : 70px auto 0 auto;
+		width: 700px;
+		padding : 0;                                             
+		text-align : center;
+    }   			
+
+/* demo content */
+	
+	h1 { font-size : 70px; padding : 20px 20px 60px 20px; text-align : center; }
+	h3 { font-size : 40px; padding : 20px 20px 60px 20px; text-align : center; }	
+	h4 { font-size : 20px; margin : 0 0 5px 0; }	
+
+	ul 		{ list-style-type : none; }
+	ul li 	{ font-size : 20px; margin : 0 0 8px 0; }
+
+	input { font-size : 25px; width : 200px; }
+	input[type="submit"] { font-size : 19px !important; }
+	
+	#demo5 input,
+	#demo6 input { font-size font-size:18px !important; }
