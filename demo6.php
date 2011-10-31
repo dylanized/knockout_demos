@@ -38,7 +38,7 @@
 
 	<script type="text/html" id="itemTemplate">
 	
-			<li>${ name } <a href="#" title="" data-bind="click: function() { viewModel.deletePerson($name) }">x</a></li>
+			<li>${ name } <a href="#" title="" data-bind="click: function() { viewModel.deletePerson(name) }">x</a></li>
         
 	</script>		
 	
@@ -64,11 +64,10 @@
 					}
 				}
 
-				viewModel.deletePerson = function () {
-					console.log("hello world");
-					/*temp_obj = { name: temp_name }
-					console.log(temp_obj);
-					viewModel.personList.remove(temp_obj);	*/
+				viewModel.deletePerson = function (temp_name) {
+					// how do i make this function work ?
+					temp_obj = { name: temp_name }
+					viewModel.personList.remove(temp_obj);	
 				}				
 
 				ko.applyBindings(viewModel);	
