@@ -4,19 +4,24 @@ I made these demos for a presentation at @STLJS, the St. Louis Javascript Meetup
 
 Demos 1-3 show Knockout's basic functionality, using observables, dependent observables, and binding events to elements.
 
-Demos 4-6 show the use of jQuery templates, including observable arrays and nested templates. These demos require the jQuery template script to be loaded.
+Demos 4-6 show the use of jQuery templates, including observable arrays and nested templates. These demos require the jQuery template library to be loaded.
 
-(Demo 6 is under construction at the moment, sorry.)
+===
 
-I plan to add a 7th demo that shows the use of the Mapping plugin, which allows raw JSON data to be mapped to Knockout's viewmodel.
+TODOS:
 
-If you have any questions, hit me up!
+* Demo featuring the new internal Knockout templates
+* Demo featuring the Mapping plugin
+* Demo featuring Ajax live updating
+
+Other ideas welcome!
 
 ===
 
 You can see this collection live on the web here:
 http://labshosting.com/knockout/
 
+Note: these have not been tested in IE
 
 ===
 

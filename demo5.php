@@ -20,9 +20,9 @@
        		
        		</ul>
        		
-       		<div style="padding-top:40px;">
+       		<div id="form-block">
        			<h4>Add a badass:</h4> 
-	       		<input type="text" data-bind="value: newPerson" id="addField" />
+	       		<input type="text" data-bind="value: newPerson" />
 	       		<input type="submit" data-bind="click: addPerson" />
 	       	</div>
         
