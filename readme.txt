@@ -14,6 +14,12 @@ If you have any questions, hit me up!
 
 ===
 
+You can see this collection live on the web here:
+http://labshosting.com/knockout/
+
+
+===
+
 dylan hassinger, October 2011
 
 twitter: @dylanized
